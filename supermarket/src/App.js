@@ -8,6 +8,7 @@ import { Route, Switch } from "react-router-dom";
 import NotFound from "./NotFound";
 import CartList from "./CartList";
 import FormDemo1 from "./FormDemo1";
+import FormDemo2 from "./FormDemo2";
 
 export default class App extends Component {
   state = { currentCategory: "", products: [], cart: [] };
@@ -88,6 +89,7 @@ export default class App extends Component {
                     />
                   )}/>
                   <Route path = "/form1" component={FormDemo1}></Route>
+                  <Route path = "/form2" component={FormDemo2}></Route>
                 <Route component={NotFound} />
               </Switch>
             </Col>

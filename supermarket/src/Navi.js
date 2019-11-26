@@ -29,6 +29,9 @@ const Navi = props => {
             <NavItem>
               <Link to ="/form1">User</Link>
             </NavItem>
+            <NavItem>
+              <Link to ="/form2">Profile</Link>
+            </NavItem>
             <CartSummary
               removeFromCart={props.removeFromCart}
               cart={props.cart}
